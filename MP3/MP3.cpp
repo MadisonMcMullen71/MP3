@@ -21,3 +21,22 @@ double fillUpCost(double amount, double pricePerUnit) {
 	return totalcost;
 
 }
+
+//calculating miles per gallon
+double milesPerGallon(double miles, double gallons) {
+	double milesPerGallon;
+	milesPerGallon = miles / gallons;
+	return milesPerGallon;
+}
+
+//calculating cost per mile
+double costPerMile(double cost, double miles) {
+	double costPerMile;
+	costPerMile = cost / miles;
+	return costPerMile;
+}
+
+
+int main() {
+
+}
